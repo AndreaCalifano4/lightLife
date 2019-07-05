@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollIndicators="right"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical">
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+         <GridView
+             android:visibility="visible"
+             android:id="@+id/gridViewCarrello"
+             android:layout_width="match_parent"
+             android:layout_height="425dp"
+             android:numColumns="1"
+             android:layout_centerHorizontal="true">
+         </GridView>
+         <TextView
+             android:id="@+id/prezzoTot"
+             android:layout_width="150dp"
+             android:layout_height="30dp"
+             android:text="TOTALE: "
+             android:textColor="#000000"
+             android:textSize="20dp"
+             android:gravity="center"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="430dp"/>
+         <Button
+             android:layout_below="@+id/prezzoTot"
+             android:id="@+id/acquista"
+             android:layout_width="350dp"
+             android:layout_height="60dp"
+             android:textSize="15dp"
+             android:textColor="#000000"
+             android:text="ACQUISTA"
+             android:gravity="center"
+             android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

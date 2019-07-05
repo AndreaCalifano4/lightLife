@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000"
+        android:layout_width="331dp"
+        android:layout_height="261dp">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:background="#ffff"
+            android:layout_width="330dp"
+            android:layout_height="260dp">
+            <TextView
+                android:drawableLeft="@drawable/ic_account_box_black_24dp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="DATI UTENTE"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <TextView
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Nome: "
+                android:layout_marginTop="50dp"/>
+            <TextView
+                android:id="@+id/areaNome"
+                android:layout_width="199dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:text="NOME UTENTE"
+                android:textSize="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="100dp"/>
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/modNome"
+                android:layout_width="199dp"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:layout_marginTop="48dp"
+                android:layout_marginStart="100dp"/>
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Cognome: "
+                android:layout_marginTop="80dp"/>
+            <TextView
+                android:id="@+id/areaCognome"
+                android:layout_width="199dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:text="COGNOME UTENTE"
+                android:textSize="20dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="100dp"/>
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/modCognome"
+                android:layout_width="199dp"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:layout_marginTop="78dp"
+                android:layout_marginStart="100dp"/>
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="E-mail: "
+                android:layout_marginTop="110dp"/>
+            <TextView
+                android:id="@+id/areaMail"
+                android:layout_width="199dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:text="MAIL UTENTE"
+                android:textSize="20dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginStart="100dp"/>
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/modMail"
+                android:layout_width="199dp"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:layout_marginTop="108dp"
+                android:layout_marginStart="100dp"/>
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Password: "
+                android:layout_marginTop="140dp"/>
+            <TextView
+                android:id="@+id/areaPass"
+                android:layout_width="199dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:text="PASS UTENTE"
+                android:textSize="20dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginStart="100dp"/>
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/modPass"
+                android:layout_width="199dp"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:layout_marginTop="138dp"
+                android:layout_marginStart="100dp"/>
+
+            <Button
+                android:drawableLeft="@drawable/ic_create_black_24dp"
+                android:id="@+id/modB"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="Modifica"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="210dp"
+                android:padding="3dp"/>
+            <Button
+                android:drawableLeft="@drawable/ic_save_black_24dp"
+                android:visibility="invisible"
+                android:id="@+id/saveB"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="Salva"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="220dp"
+                android:padding="2dp"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="331dp"
+        android:layout_height="121dp"
+        android:background="#000"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:layout_width="330dp"
+            android:layout_height="120dp">
+            <TextView
+                android:drawableLeft="@drawable/ic_shopping_cart_black_24dp"
+                android:layout_width="230dp"
+                android:layout_height="30dp"
+                android:text="ULTIMO ORDINE"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/ultimoOrdine"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:gravity="start|center"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/acquistaDiNuovo"
+                android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:text="Acquista di nuovo"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="140dp"
+                android:padding="2dp"/>
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

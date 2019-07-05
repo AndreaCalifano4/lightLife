@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:id="@+id/TextViewOrdine"
+        android:textColor="#000000"
+        android:text="01"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:textSize="18dp"
+        android:id="@+id/TextViewCliente"
+        android:textColor="#000000"
+        android:text="Carmine"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:id="@+id/TextViewProdotti"
+        android:textColor="#000000"
+        android:text="5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/TextViewData"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="2019-01-21"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        android:id="@+id/ImageViewCestino"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        />
+</LinearLayout>

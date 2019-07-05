@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homepage"
+            android:title="Home"/>
+        <item
+            android:id="@+id/problemi"
+            android:icon="@drawable/problemi"
+            android:title="Problemi e Disturbi"/>
+        <item
+            android:id="@+id/rimedi"
+            android:icon="@drawable/rimedinaturali"
+            android:title="Rimedi Naturali" />
+        <item
+            android:id="@+id/puntiVendita"
+            android:icon="@drawable/puntivendita"
+            android:title="Punti Vendita" />
+        <item
+            android:id="@+id/negozio"
+            android:icon="@drawable/negozio"
+            android:title="Negozio" />
+        <item
+            android:id="@+id/carrello"
+            android:icon="@drawable/carrello"
+            android:title="Carrello" />
+        <item
+            android:id="@+id/areaUtente"
+            android:icon="@drawable/user"
+            android:title="Area Utente" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
